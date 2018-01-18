@@ -1,0 +1,17 @@
+# EndTheBossJS
+
+EndTheBossJS is the web version of the Android game EndTheBoss
+
+## Build the src
+
+```
+npm install
+npm install webpack -g
+webpack
+```
+
+## Serve the game
+```
+npm install serve -g
+serve
+```
