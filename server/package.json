@@ -1,0 +1,22 @@
+{
+  "name": "EndTheBossJS-Server",
+  "version": "0.0.1",
+  "description": "Server for EndTheBossJS",
+  "main": "index.js",
+  "author": "Quentin Gangler",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/express": "^4.11.0",
+    "@types/socket.io": "^1.4.31",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.1",
+    "typescript": "^2.6.2"
+  }
+}

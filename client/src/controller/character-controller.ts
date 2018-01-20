@@ -1,9 +1,9 @@
-import {Character} from "../Model/Character";
-import {CharacterVue} from "../Vue/CharacterVue";
-import {GameScene} from "../GameScene";
-import {Map} from "../Model/Map";
-import {MapTile} from "../Model/MapTile";
-import {Logger} from "../Logger";
+import {Character} from "../model/character";
+import {CharacterVue} from "../vue/character-vue";
+import {GameScene} from "../game-scene";
+import {Map} from "../model/map";
+import {MapTile} from "../model/map-tile";
+import {Logger} from "../utils/logger";
 
 export class CharacterController {
     character: Character;

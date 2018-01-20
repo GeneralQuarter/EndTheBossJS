@@ -1,8 +1,8 @@
-import {MapTile} from "./MapTile";
-import {GameSettings} from "../GameSettings";
-import {EmptyMapTile} from "./EmptyMapTile";
-import {Character} from "./Character";
-import {Logger} from "../Logger";
+import {MapTile} from "./map-tile";
+import {GameSettings} from "../game-settings";
+import {EmptyMapTile} from "./empty-map-tile";
+import {Character} from "./character";
+import {Logger} from "../utils/logger";
 
 export class Map {
     tiles: MapTile[][];

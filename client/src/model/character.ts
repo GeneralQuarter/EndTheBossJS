@@ -1,4 +1,4 @@
-import {MapTile} from "./MapTile";
+import {MapTile} from "./map-tile";
 
 export class Character extends MapTile{
     private _uuid: string;

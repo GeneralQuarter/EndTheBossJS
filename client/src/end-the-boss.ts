@@ -1,10 +1,12 @@
-import * as PIXI from 'pixi.js';
-import {GameSettings} from "./GameSettings";
-import {GameScene} from "./GameScene";
-import {Character} from "./Model/Character";
-import {CharacterController} from "./Controller/CharacterController";
-import {Map} from "./Model/Map";
-import {EmptyMapTile} from "./Model/EmptyMapTile";
+import {GameSettings} from "./game-settings";
+import {GameScene} from "./game-scene";
+import {Character} from "./model/character";
+import {CharacterController} from "./controller/character-controller";
+import {Map} from "./model/map";
+import {EmptyMapTile} from "./model/empty-map-tile";
+import * as io from "socket.io-client";
+
+let socket = io();
 
 GameSettings.updateTileSizes(window.innerHeight, window.innerHeight);
 

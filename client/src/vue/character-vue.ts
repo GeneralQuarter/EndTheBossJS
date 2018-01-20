@@ -1,6 +1,6 @@
 import * as PIXI from 'pixi.js';
-import {Character} from "../Model/Character";
-import {GameSettings} from "../GameSettings";
+import {Character} from "../model/character";
+import {GameSettings} from "../game-settings";
 
 export class CharacterVue extends PIXI.Graphics {
     private _character: Character;

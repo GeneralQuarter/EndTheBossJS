@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js';
-import {GameSettings} from "./GameSettings";
+import {GameSettings} from "./game-settings";
 
 export class GameScene extends PIXI.Container {
 

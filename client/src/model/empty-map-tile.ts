@@ -1,4 +1,4 @@
-import {MapTile} from "./MapTile";
+import {MapTile} from "./map-tile";
 
 export class EmptyMapTile extends MapTile{
 
